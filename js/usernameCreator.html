@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+            
+    UserName<input type="text" id = "n1">
+    <div id = "hello"> HELLO</div>
+
+    Username creater: <button id = "usernameBtn"> click me</button>
+    <div id ="username"> </div>
+
+    <script>
+        function print_username(n1){
+            return "Hello " + n1;
+        }
+
+        function create_username(name,a,b){
+            let addition = (a,b) => {return a + b}
+            let multiplication = (a,b) => {return a *b}
+
+            let choose = [addition(a,b) , multiplication(a,b)];
+
+            return name + choose[Math.round(Math.random() * 1)]
+        }
+
+        input = document.getElementById("n1");
+        input.addEventListener("input", () =>{
+            let C = input.value;
+            console.log(C);
+            hello_user = print_username(C);
+            document.getElementById("hello").innerHTML = hello_user;
+        } )
+        
+        
+        a = Math.round((Math.random() * 10) +1);
+        b = Math.round((Math.random() * 10) + 1);
+        
+        usernamecreator = document.getElementById("usernameBtn");
+        usernamecreator.addEventListener("click" ,() => {
+            name = create_username(input.value,a,b);
+            document.getElementById("username").innerHTML = name;
+            console.log("yo"+name);
+        })
+        
+
+    </script>
+    
+</body>
+</html>
