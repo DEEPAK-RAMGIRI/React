@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 02</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1>TOGGLE</h1>
+    <p>click the button to toggle me</p>
+    <button id="toggle"> Toggle Me</button>
+    <br>
+    <input id = "text" placeholder="enter some thing to change name">
+    <button id = "apply"> Apply</button>
+
+    
+<script> 
+
+    $(function() {
+        $('#toggle').on('click',() => $('h1').toggle());
+        $('#apply').on('click',() => {
+            let inputs = $('#text').val()
+            $('h1').html(inputs) })
+
+
+    })      
+</script>
+</body>
+</html>

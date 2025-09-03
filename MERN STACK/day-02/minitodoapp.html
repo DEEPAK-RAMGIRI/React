@@ -1,0 +1,27 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <title>TO DO APP</title>
+    </head>
+    <body>
+        <h2> mini todo App</h2>
+        Enter activity <input type="text" id="text">
+        <br>
+        <button id="btn1"> ADD </button><button id="btn2"> CLEAR</button>
+        <div id="list"></div>  
+    </body>
+    <script>
+        $(()=> {
+            $('#btn1').on('click',() =>{
+            let activity = $('#text').val();
+            $('#list').append('<div><input type="checkbox" id="activity" name="activity"/> ' + activity + '<button id= "del">DEL</button></div>')
+            $('#btn2').on('click',() => $('#text').val(''))
+            $('#list').on('click','#del',function(){$(this).parent().remove()})
+        })
+        });
+    </script>
+
+    </html>

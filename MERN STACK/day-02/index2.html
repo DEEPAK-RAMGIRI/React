@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1> SELECTORS & CSS</h1>
+        <div id = "controls">
+            <button id="btn1">highlight 2 row</button>
+            <button id="btn2">bold all</button>
+            <button id="btn3">color 3</button>
+            <button id="btn4">Reset</button>
+        </div>
+        
+        <ul id = "list">
+            <li id="id1">one</li>
+            <li id="id2">Two</li>
+            <li id="id3">Three</li>
+            <li id="id4">Four</li>
+        </ul>
+
+        <p id="msg">Hello JQuery</p>
+        <button id="hide">HIDE</button>
+        <button id="show">SHOW</button>
+
+        <script>
+            $(()=> {
+                $('#btn1').on('click', () => {$('#id1').css("background-color", "yellow")});
+                $('#btn2').on('click', () => {$('#list li').css("font-weight",'bold')});
+                $('#btn3').on('click', () => {$('#id3').css("color",'red')});
+                $('#btn4').on('click', () => {$('#list li').removeAttr('style')}); 
+                $('#hide').on('click', () => {$('#msg').hide()});
+                $('#show').on('click', () => {$('#msg').show()});
+            })
+
+        </script>
+    
+</body>
+</html>
