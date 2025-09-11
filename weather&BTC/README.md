@@ -1,4 +1,4 @@
-# WEATHER-APPLICATION
+# WEATHER + BTC BTC MARKET PRICE APPLICATION
 A simple weather application that shows real-time temperature, pressure, humidity, and wind speed for any city.  
 
  **Live Demo**: [Weather Application](https://react-one-kappa-29.vercel.app/)  
@@ -7,7 +7,7 @@ A simple weather application that shows real-time temperature, pressure, humidit
 
 ### Tech Stack
 - **React.js** – Frontend framework  
-- **Axios** – API fetching from [OpenWeather API](https://openweathermap.org/api)  
+- **Axios** – API fetching from [OpenWeather API](https://openweathermap.org/api) also blockchain api
 - **npm** – Dependency management  
 - **Vercel** – Deployment platform  
 - **CSS** – Styling and responsiveness  
@@ -15,7 +15,8 @@ A simple weather application that shows real-time temperature, pressure, humidit
 
 ###  Features
 -  Search weather by city name  
--  Displays **temperature, pressure, humidity, and wind speed**  
+-  Displays **temperature, pressure, humidity, and wind speed** for weather
+-  Displas **Indian and us 1 bitcoin worth money**   
 -  Responsive UI for all devices  
 -  Fast and lightweight app  
 
@@ -25,7 +26,6 @@ WeatherApp/
 ├── public/
 │   └── index.html          # Root HTML file
 ├── src/
-│   ├── assets/             # Images, icons (optional)
 │   ├── components/         # Reusable components
 │   │   └── WeatherCard.js  # Example component
 │   ├── App.js              # Main React component
