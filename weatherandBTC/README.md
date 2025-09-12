@@ -3,7 +3,7 @@ A React.js web application that provides real-time weather updates (temperature,
 
  **Live Demo**: [Weather Application](https://react-eosin-seven.vercel.app/)  
 
-![Weather Application Screenshot](https://github.com/DEEPAK-RAMGIRI/React/blob/main/weatherApp/weather.png)  
+![Weather + BTC Application Screenshot](https://github.com/DEEPAK-RAMGIRI/React/blob/main/weatherandBTC/weather%2BBTC.png)  
 
 ### Tech Stack
 - **React.js** – Frontend framework  
@@ -37,5 +37,6 @@ weatherandBTC/
 └── README.md
 
 ```
+
 
 
