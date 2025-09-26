@@ -1,7 +1,9 @@
 <h1 align="center"> TO-DO-LIST </h1>
 A simple and interactive To-Do List application built using React. Users can add new tasks to their list and remove them with a single click.
 
-LIVE DEMO: [TO-DO-LIST](https://z4hcfr.csb.app/) 
+
+**LIVE DEMO**: [TO-DO-LIST](https://z4hcfr.csb.app/) 
+
 
 ![PHOTO](https://github.com/DEEPAK-RAMGIRI/React/blob/main/to-do-list/to-do-list.png)
 
